@@ -1,1 +1,1 @@
-Repositório criado para acompanhar o curso que collection java da DIO
+Repositório criado para acompanhar o curso que collections java da DIO
