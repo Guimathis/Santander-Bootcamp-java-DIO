@@ -1,0 +1,1 @@
+**Diretório criado para acompanhar o curso de collections Java da DIO**
