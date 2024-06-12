@@ -93,7 +93,7 @@ public class ListaTarefas {
         listaTarefas.adicionarTarefa("Tarefa 1");
         listaTarefas.adicionarTarefa("Tarefa 2");
         listaTarefas.adicionarTarefa("Tarefa 3");
-
+        System.out.println("\n");
         listaTarefas.exibirTarefas();
 
         listaTarefas.contarTarefas();
@@ -105,6 +105,8 @@ public class ListaTarefas {
         listaTarefas.exibirTarefas();
 
         listaTarefas.marcarTarefaPendente("Tarefa 1");
+        System.out.println("\n");
+        listaTarefas.removerTarefa("Tarefa 3");
 
         listaTarefas.exibirTarefas();
 
