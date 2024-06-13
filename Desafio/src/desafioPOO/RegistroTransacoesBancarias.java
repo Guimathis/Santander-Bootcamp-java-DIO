@@ -39,7 +39,6 @@ public class RegistroTransacoesBancarias {
             }
         }
 
-        // TODO: Exibir o saldo final e a lista de transações conforme a tabela de Exemplos.
         System.out.printf("Saldo: %.1f\n", saldo);
         System.out.println("Transacoes:");
        // transacoes.stream().forEach(System.out::println);

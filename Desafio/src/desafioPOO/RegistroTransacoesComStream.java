@@ -20,7 +20,6 @@ public class RegistroTransacoesComStream {
             String tipoTransacao = scanner.next();
             double valorTransacao = scanner.nextDouble();
 
-            // TODO: Criar uma nova transação e adicioná-la à lista de transações
             Transacao transacao = new Transacao(tipoTransacao, valorTransacao);
             transacoes.add(transacao);
 
@@ -34,7 +33,6 @@ public class RegistroTransacoesComStream {
 
         System.out.println("Saldo : " + saldo);
         System.out.println("Transacoes:");
-//        "TODO: Formatar a Saída (tipo e valor) de acordo com os Exemplos."
         transacoes.stream()
                 .map(transacao -> transacao.getTipo() + " de " + transacao.getValor() )
                 .collect(Collectors.toList())
